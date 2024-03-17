@@ -15,5 +15,13 @@
     "uid",
     "uuid"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazmulHossain2905/rand-uid.git"
+  },
+  "homepage": "https://github.com/NazmulHossain2905/rand-uid#readme",
+  "bugs": {
+    "url": "https://github.com/NazmulHossain2905/rand-uid/issues"
+  }
 }
