@@ -72,7 +72,7 @@ const options = {
   }
 ```
 
-Example:
+## Example:
 
 ### `separator`
 
