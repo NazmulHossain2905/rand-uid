@@ -1,7 +1,10 @@
 # Random ID Generator
 
-[![npm version](https://img.shields.io/npm/v/random-id.svg)](https://www.npmjs.com/package/rand-uid)
-[![license](https://img.shields.io/npm/l/random-id.svg)](https://github.com/your-username/random-id/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/rand-uid.svg)](https://www.npmjs.com/package/rand-uid)
+[![license](https://img.shields.io/npm/l/rand-uid.svg)](https://github.com/NazmulHossain2905/rand-uid)
+![NPM Downloads](https://img.shields.io/npm/dw/rand-uid)
+![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/rand-uid)
+![NPM Collaborators](https://img.shields.io/npm/collaborators/rand-uid)
 
 A simple and lightweight library to generate random IDs.
 
@@ -50,7 +53,7 @@ The function accepts the following options:
 
 - [`prefix`](#prefix): A string to prepend to the generated UID **(default: "").**
 
-- [`variant`](#variant): The type of characters to include in the UID. Options are `"number"`, `"character`, or `"mixed"` **(default: "mixed").**
+- [`variant`](#variant): The type of characters to include in the UID. Options are `"number"`, `"character"`, or `"mixed"` **(default: "mixed").**
 
 - [`charCase`](#charcase): The case of characters in the UID. Options are `"lower"`, `"upper"`, or `"mixed"` **(default: "mixed").**
 
