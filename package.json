@@ -1,0 +1,19 @@
+{
+  "name": "rand-uid",
+  "version": "0.0.1",
+  "description": "Generate Random ID's. Also Modify as You Like.",
+  "main": "src/index.js",
+  "author": "Nazmul Hossain",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "id",
+    "random-id",
+    "rand-uid",
+    "uid",
+    "uuid"
+  ],
+  "license": "MIT"
+}

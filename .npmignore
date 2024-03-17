@@ -1,0 +1,19 @@
+# TypeScript source files
+src/
+
+# Development files and directories
+*.ts
+*.spec.ts
+test/
+tests/
+__tests__/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Configuration files
+*.config.js
+
+# Documentation
+docs/
