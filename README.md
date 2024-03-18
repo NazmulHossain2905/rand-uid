@@ -180,7 +180,7 @@ console.log(shortId_5); // 7948612351
 
 ---
 
-## The `options` args object `[property]:[value]`
+## The `options` _arguments_ object `[property]:[value]`
 
 | Property                        | Description                                              | Value                                   | Default Value |
 | ------------------------------- | -------------------------------------------------------- | --------------------------------------- | ------------- |
