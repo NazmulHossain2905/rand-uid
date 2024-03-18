@@ -1,6 +1,6 @@
-// rand-uid
+import { IOption } from "./interfaces";
 
-export const randomUid = (options = {}) => {
+export const randomUid = (options: IOption) => {
   const {
     separator = "-",
     sectionLength = 5,
@@ -10,35 +10,37 @@ export const randomUid = (options = {}) => {
     charCase = "mixed",
   } = options;
 
-  const sections = [];
+  const sections: string[] = [];
 
   for (let i = 0; i < totalSection; i++) {
-    let part = "";
+    let section: string = "";
+
     for (let j = 0; j < sectionLength; j++) {
       if (variant === "number") {
         const rand = Math.floor(Math.random() * 10);
-        part += rand.toString(10);
+        section += rand.toString(10);
       } else if (variant === "character") {
         const characters =
           "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        part += characters.charAt(
+        section += characters.charAt(
           Math.floor(Math.random() * characters.length)
         );
       } else {
         const characters =
           "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        part += characters.charAt(
+        section += characters.charAt(
           Math.floor(Math.random() * characters.length)
         );
       }
     }
-    sections.push(part);
+
+    sections.push(section);
   }
 
   const randUid = sections.join(separator);
 
-  let finalUid = "";
+  let finalUid: string = "";
 
   if (prefix) {
     finalUid = `${prefix}${randUid}`;

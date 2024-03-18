@@ -2,12 +2,14 @@
   "name": "rand-uid",
   "version": "0.0.2",
   "description": "Generate Random ID's. Also Modify as You Like.",
-  "main": "src/index.js",
-  "author": "Nazmul Hossain",
-  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon ./dist/index.js",
+    "build": "tsup"
   },
+  "author": "Nazmul Hossain",
   "keywords": [
     "id",
     "random-id",
@@ -23,5 +25,9 @@
   "homepage": "https://github.com/NazmulHossain2905/rand-uid#readme",
   "bugs": {
     "url": "https://github.com/NazmulHossain2905/rand-uid/issues"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
   }
 }
