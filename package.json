@@ -1,6 +1,6 @@
 {
   "name": "rand-uid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate Random ID's. Also Modify as You Like.",
   "main": "src/index.js",
   "author": "Nazmul Hossain",
