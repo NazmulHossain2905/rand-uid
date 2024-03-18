@@ -80,10 +80,11 @@ const options = {
 const uid_1 = randomUid({ separator: "_" });
 console.log(uid_1); // Gk3IS_9E9Su_6EDgP_rcvGR_PTRiX
 
-// or
+const uid_2 = randomUid({ separator: "___" });
+console.log(uid_2); // iUZSl___7iyZM___2hc4l___7plX0___cq0q0
 
-const uid_2 = randomUid({ separator: "_", variant: "number" });
-console.log(uid_2); // 37961_59202_78555_73383_28752
+const uid_3 = randomUid({ separator: "_", variant: "number" });
+console.log(uid_3); // 37961_59202_78555_73383_28752
 ```
 
 ### `sectionLength`
@@ -167,6 +168,14 @@ console.log(shortId_3); // H6r9IDnpU7Vsvj3Q
 // way - 3
 const shortId_4 = randomUid({ separator: "" });
 console.log(shortId_4); // WOVL4UlrLlo1Pzra68gIihbdY
+
+// way - 4 : number
+const shortId_5 = randomUid({
+  sectionLength: 10,
+  totalSection: 1,
+  variant: "number",
+});
+console.log(shortId_5); // 7948612351
 ```
 
 ---
@@ -181,3 +190,5 @@ console.log(shortId_4); // WOVL4UlrLlo1Pzra68gIihbdY
 | [prefix](#prefix)               | A string to prepend to the generated UID                 | `string`                                | `""`          |
 | [variant](#variant)             | The type of characters to include in the UID             | `"number"`, `"character"` and `"mixed"` | `"mixed"`     |
 | [charCase](#charcase)           | The case of characters in the UID                        | `"upper"`, `"lower"` and `"mixed"`      | `"mixed"`     |
+
+## Follow on [GitHub](https://github.com/NazmulHossain2905)
