@@ -11,11 +11,14 @@
   },
   "author": "Nazmul Hossain",
   "keywords": [
+    "random",
     "id",
+    "generator",
     "random-id",
     "rand-uid",
     "uid",
-    "uuid"
+    "uuid",
+    "number"
   ],
   "license": "MIT",
   "repository": {
