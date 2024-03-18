@@ -1,6 +1,6 @@
 {
   "name": "rand-uid",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Generate Random ID's. Also Modify as You Like.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
