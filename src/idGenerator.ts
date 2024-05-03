@@ -1,6 +1,6 @@
 import { IOption } from "./interfaces";
 
-export const randomUid = (options: IOption) => {
+export const randomUid = (options?: IOption) => {
   const {
     separator = "-",
     sectionLength = 5,
@@ -8,7 +8,7 @@ export const randomUid = (options: IOption) => {
     prefix = "",
     variant = "mixed",
     charCase = "mixed",
-  } = options;
+  } = options || {};
 
   const sections: string[] = [];
 
